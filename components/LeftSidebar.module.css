@@ -1,0 +1,20 @@
+.leftSidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+}
+
+.leftSidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leftSidebar li {
+  margin-bottom: 10px;
+}
+
+.leftSidebar a {
+  text-decoration: none;
+  color: #007bff;
+}
