@@ -27,9 +27,46 @@ This Next.js application provides a structured layout with a fixed title bar, le
 The application uses Next.js's `Link` component for client-side navigation, ensuring fast and smooth transitions between different sections without a full page reload.
 
 ## File Structure
-my_repos/ ├── next_project_routing/ │ ├── app/ │ │ ├── layout.js │ │ ├── page.js │ │ ├── tutorials.js │ │ ├── node-studio.js │ │ ├── tasks.js │ │ └── documentation.js │ ├── components/ │ │ ├── Layout.js │ │ ├── TitleBar.js │ │ ├── LeftSidebar.js │ │ ├── RightSidebar.js │ │ ├── Layout.module.css │ │ ├── TitleBar.module.css │ │ ├── LeftSidebar.module.css │ │ └── RightSidebar.module.css │ └── public/ │ ├── next.svg │ ├── vercel.svg │ ├── file.svg │ ├── window.svg │ └── globe.svg
 
-
+├── next_project_routing/
+      │   .gitignore
+      │   eslint.config.mjs
+      │   jsconfig.json
+      │   next.config.mjs
+      │   package-lock.json
+      │   package.json
+      │   README.md
+      │   
+      ├───app
+      │   │   favicon.ico
+      │   │   globals.css
+      │   │   layout.js
+      │   │   page.js
+      │   │   page.module.css
+      │   │   
+      │   ├───node-studio
+      │   │       page.js
+      │   │       
+      │   └───tutorials
+      │           page.js
+      │           tutorials.js
+      │
+      ├───components
+      │       Layout.js
+      │       Layout.module.css
+      │       LeftSidebar.js
+      │       LeftSidebar.module.css
+      │       RightSidebar.js
+      │       RightSidebar.module.css
+      │       TitleBar.js
+      │       TitleBar.module.css
+      │       
+      └───public
+              file.svg
+              globe.svg
+              next.svg
+              vercel.svg
+              window.svg
 
 ## Example Code
 
