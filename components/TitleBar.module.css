@@ -1,6 +1,8 @@
 .titleBar {
   background-color: #f8f9fa;
   padding: 10px;
-  text-align: center;
   border-bottom: 1px solid #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
