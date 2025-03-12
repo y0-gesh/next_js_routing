@@ -8,7 +8,7 @@ const TitleBar = () => {
 
   return (
     <div className={styles.titleBar}>
-      <h1>My App</h1>
+      <h1>Next Js Routing</h1>
       <div className="control-btn">
         <button onClick={toggleLeftSidebar}>Left</button>
         <button onClick={toggleRightSidebar}>Right</button>
